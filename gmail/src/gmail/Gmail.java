@@ -58,6 +58,7 @@ for(WebElement msg:
     
 }
 write(unreademail.toString());
+driver.close();
     }
      private static void write(String content) {
         String fileNameToStoreunreademail = "C:\\Users\\Beka\\Desktop\\webscript\\unreademail.txt";
@@ -70,6 +71,7 @@ write(unreademail.toString());
         catch (IOException e) {
             e.printStackTrace();
         }
+        
     }
 
 //driver.close();// TODO code application logic here
